@@ -11,7 +11,6 @@ An AWS automation project that creates **Amazon Machine Images (AMIs)** of an EC
 - [Services Used](#services-used)
 - [Prerequisites](#prerequisites)
 - [Implementation Steps](#implementation-steps)
-- [Screenshots](#screenshots)
 - [Outcome](#outcome)
 - [Known Limitations](#known-limitations)
 - [Security Best Practices](#security-best-practices)
@@ -146,24 +145,7 @@ def lambda_handler(event, context):
 - `<Describe what you checked, for example: "Ran a manual test of AMI-Creation and confirmed a new AMI appeared under EC2 → AMIs.">`
 - Delete this section if you did not verify anything.
 
----
 
-## Screenshots
-
-### Lambda functions
-The `AMI-Creation` and `AMI-Cleanup` functions.
-
-![Lambda Functions](images/lambda-functions.png)
-
-### Backup IAM role
-The role `Lambda-AMI-Backup-Role` used by both functions.
-
-![Backup IAM Role](images/iam-backup-role.png)
-
-### EventBridge scheduled rules
-The daily schedules that trigger the functions.
-
-![Scheduled Rules](images/eventbridge-rules.png)
 
 ---
 
@@ -208,5 +190,5 @@ Documented honestly so they can be improved:
 
 ## Author
 
-**Vinay**
-GitHub: [Vinay-PR-Gowda](https://github.com/Vinay-PR-Gowda)
+**Vikram**
+GitHub: [Vikram C N](https://github.com/Vikramcntrivikram)
